@@ -89,7 +89,13 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      # Without ref: main, checkout defaults to the SHA that triggered the
+      # workflow — which is BEFORE the update job's commit. That was silently
+      # deploying stale content on every scheduled run.
       - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
