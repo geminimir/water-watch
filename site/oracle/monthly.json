@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24 14:53 UTC",
+  "generated_at": "2026-09-26 10:58 UTC",
   "national": {
     "2017-03": {
       "total_area_km2": 75.25,
@@ -458,8 +458,8 @@
       "dam_readings": 37
     },
     "2026-09": {
-      "total_area_km2": 384.69,
-      "dam_readings": 155
+      "total_area_km2": 492.53,
+      "dam_readings": 184
     }
   }
 }

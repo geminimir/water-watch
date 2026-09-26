@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "description": "Tunisia Water Watch verifiable data oracle. Every listed endpoint's SHA-256 is in manifest.json.",
-  "generated_at": "2026-09-24 14:53 UTC",
+  "generated_at": "2026-09-26 10:58 UTC",
   "endpoints": {
     "latest": "latest.json",
     "anomalies": "anomalies.json",
@@ -13,11 +13,11 @@
   "counts": {
     "dams": 37,
     "governorates": 24,
-    "dam_readings": 4353,
-    "governorate_readings": 2826
+    "dam_readings": 4390,
+    "governorate_readings": 2850
   },
   "coverage": {
-    "dam_history_span_days": 3493,
-    "governorate_history_span_days": 3493
+    "dam_history_span_days": 3495,
+    "governorate_history_span_days": 3495
   }
 }

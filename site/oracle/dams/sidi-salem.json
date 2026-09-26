@@ -8,7 +8,7 @@
   "capacity_hm3": 555,
   "ndwi_threshold": 0.05,
   "historical_avg_km2": 28.8,
-  "effective_baseline_km2": 17.18,
+  "effective_baseline_km2": 17.8,
   "baseline_source": "rolling-monthly",
   "readings": [
     {
@@ -62,7 +62,7 @@
       "surface_area_mndwi_km2": null,
       "cloud_pct": 1.1,
       "confidence": null,
-      "pct_of_avg": 87.70704159753153,
+      "pct_of_avg": 84.61581667041115,
       "scene_id": "S2B_32SNF_20170906_0_L2A"
     },
     {
@@ -170,7 +170,7 @@
       "surface_area_mndwi_km2": null,
       "cloud_pct": 0.0,
       "confidence": null,
-      "pct_of_avg": 86.72896108054611,
+      "pct_of_avg": 83.67220849247362,
       "scene_id": "S2B_32SNF_20180901_1_L2A"
     },
     {
@@ -278,7 +278,7 @@
       "surface_area_mndwi_km2": null,
       "cloud_pct": 0.1,
       "confidence": null,
-      "pct_of_avg": 129.28128547725092,
+      "pct_of_avg": 124.72478094810155,
       "scene_id": "S2B_32SNF_20190916_0_L2A"
     },
     {
@@ -386,7 +386,7 @@
       "surface_area_mndwi_km2": null,
       "cloud_pct": 0.0,
       "confidence": null,
-      "pct_of_avg": 109.49844263965304,
+      "pct_of_avg": 105.63918220624579,
       "scene_id": "S2B_32SNF_20200930_1_L2A"
     },
     {
@@ -494,7 +494,7 @@
       "surface_area_mndwi_km2": null,
       "cloud_pct": 2.8,
       "confidence": null,
-      "pct_of_avg": 2.0202020202020203,
+      "pct_of_avg": 1.9490002246686138,
       "scene_id": "S2B_32SNF_20210925_1_L2A"
     },
     {
@@ -602,7 +602,7 @@
       "surface_area_mndwi_km2": null,
       "cloud_pct": 0.0,
       "confidence": null,
-      "pct_of_avg": 77.51288097109425,
+      "pct_of_avg": 74.78094810155022,
       "scene_id": "S2B_32SNF_20220910_0_L2A"
     },
     {
@@ -710,7 +710,7 @@
       "surface_area_mndwi_km2": null,
       "cloud_pct": 0.0,
       "confidence": null,
-      "pct_of_avg": 96.34675283090269,
+      "pct_of_avg": 92.95102224219276,
       "scene_id": "S2A_32SNF_20230910_1_L2A"
     },
     {
@@ -818,7 +818,7 @@
       "surface_area_mndwi_km2": null,
       "cloud_pct": 0.0,
       "confidence": null,
-      "pct_of_avg": 72.15090385119206,
+      "pct_of_avg": 69.60795326892834,
       "scene_id": "S2B_32SNF_20240929_0_L2A"
     },
     {
@@ -926,7 +926,7 @@
       "surface_area_mndwi_km2": null,
       "cloud_pct": 0.0,
       "confidence": null,
-      "pct_of_avg": 89.15087474165286,
+      "pct_of_avg": 86.008762075938,
       "scene_id": "S2A_32SNF_20250901_0_L2A"
     },
     {
@@ -1034,7 +1034,7 @@
       "surface_area_mndwi_km2": null,
       "cloud_pct": 0.0,
       "confidence": null,
-      "pct_of_avg": 105.67344918929935,
+      "pct_of_avg": 101.94900022466862,
       "scene_id": "S2B_32SNF_20260909_0_L2A"
     },
     {
@@ -1043,7 +1043,7 @@
       "surface_area_mndwi_km2": 17.573,
       "cloud_pct": 0.0,
       "confidence": 0.968,
-      "pct_of_avg": 105.67344918929935,
+      "pct_of_avg": 101.94900022466862,
       "scene_id": "S2B_32SNF_20260909_0_L2A"
     },
     {
@@ -1052,7 +1052,7 @@
       "surface_area_mndwi_km2": 17.624,
       "cloud_pct": 2.0,
       "confidence": 0.99,
-      "pct_of_avg": 103.65324716909733,
+      "pct_of_avg": 100.0,
       "scene_id": "S2C_32SNF_20260914_0_L2A"
     },
     {
@@ -1061,7 +1061,7 @@
       "surface_area_mndwi_km2": 17.685,
       "cloud_pct": 0.0,
       "confidence": 0.972,
-      "pct_of_avg": 105.8888597793497,
+      "pct_of_avg": 102.15681869242867,
       "scene_id": "S2A_32SNF_20260916_1_L2A"
     },
     {
@@ -1070,8 +1070,17 @@
       "surface_area_mndwi_km2": 17.685,
       "cloud_pct": 0.0,
       "confidence": 0.972,
-      "pct_of_avg": 105.8888597793497,
+      "pct_of_avg": 102.15681869242867,
       "scene_id": "S2A_32SNF_20260916_1_L2A"
+    },
+    {
+      "date": "2026-09-26",
+      "surface_area_km2": 18.271,
+      "surface_area_mndwi_km2": 17.973,
+      "cloud_pct": 10.0,
+      "confidence": 0.984,
+      "pct_of_avg": 102.62300606605258,
+      "scene_id": "S2C_32SNF_20260924_0_L2A"
     }
   ],
   "monthly_medians_km2": {
@@ -1187,7 +1196,7 @@
     "2026-06": 19.565,
     "2026-07": 19.392,
     "2026-08": 18.501,
-    "2026-09": 18.151
+    "2026-09": 18.1695
   },
-  "generated_at": "2026-09-24 14:53 UTC"
+  "generated_at": "2026-09-26 10:58 UTC"
 }
