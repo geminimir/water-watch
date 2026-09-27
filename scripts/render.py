@@ -124,6 +124,13 @@ def _trend_symbol(series: list[dict[str, Any]]) -> str:
     return "↑" if delta > 0 else "↓"
 
 
+def _trend_pct(series: list[dict[str, Any]]) -> float | None:
+    values = [p["surface_area_km2"] for p in series if p["surface_area_km2"] is not None]
+    if len(values) < 2 or not values[0]:
+        return None
+    return 100.0 * (values[-1] - values[0]) / values[0]
+
+
 # ------------------------- baselines (dams) -------------------------
 
 def compute_baselines(
@@ -657,6 +664,7 @@ def _render_language_tree(
             dam=d, latest=latest, recent=recent,
             series_json=json.dumps(series, default=str),
             trend_symbol=_trend_symbol(series[-6:] if len(series) >= 2 else series),
+            trend_pct=_trend_pct(series[-6:] if len(series) >= 2 else series),
             **common,
         ))
 

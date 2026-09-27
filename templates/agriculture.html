@@ -47,12 +47,12 @@
     <thead>
       <tr>
         <th>{{ t.th_governorate }}</th>
-        <th>{{ t.th_region }}</th>
-        <th>{{ t.th_last_reading }}</th>
+        <th class="hide-mobile">{{ t.th_region }}</th>
+        <th class="hide-mobile">{{ t.th_last_reading }}</th>
         <th class="num">{{ t.th_ndvi }}</th>
         <th class="num">{{ t.th_ndmi }}</th>
         <th class="num">{{ t.th_healthy_pct }}</th>
-        <th class="spark">·</th>
+        <th class="spark hide-mobile">·</th>
         <th class="num">{{ t.th_severity }}</th>
         <th>{{ t.th_band }}</th>
       </tr>
@@ -61,12 +61,12 @@
       {% for g in govs %}
       <tr>
         <td><a href="governorate/{{ g.id }}.html">{{ g.display_name }}</a></td>
-        <td class="muted">{{ g.display_region }}</td>
-        <td class="tiny">{{ g.last_date or "—" }}</td>
+        <td class="muted hide-mobile">{{ g.display_region }}</td>
+        <td class="tiny hide-mobile">{{ g.last_date or "—" }}</td>
         <td class="num">{{ "%.3f"|format(g.mean_ndvi) if g.mean_ndvi is not none else "—" }}</td>
         <td class="num">{{ "%.3f"|format(g.mean_ndmi) if g.mean_ndmi is not none else "—" }}</td>
         <td class="num">{{ "%.0f"|format(g.healthy_pct) if g.healthy_pct is not none else "—" }}</td>
-        <td class="spark">{{ g.sparkline|safe }}</td>
+        <td class="spark hide-mobile">{{ g.sparkline|safe }}</td>
         <td class="num">{{ (g.severity_score|round(0))|int if g.severity_score is not none else "—" }}</td>
         <td><span class="badge badge-band-{{ g.severity_band }}">{{ g.display_band }}</span></td>
       </tr>

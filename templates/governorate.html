@@ -37,6 +37,11 @@
 </section>
 
 <section class="chart-section">
+  <div class="chart-controls">
+    <button type="button" class="range-btn" data-days="365">{{ t.chart_range_1y }}</button>
+    <button type="button" class="range-btn" data-days="1825">{{ t.chart_range_5y }}</button>
+    <button type="button" class="range-btn" data-days="0">{{ t.chart_range_all }}</button>
+  </div>
   <canvas id="gov-chart" height="120"></canvas>
 </section>
 
@@ -51,7 +56,7 @@
         <th class="num">{{ t.th_healthy_pct }}</th>
         <th class="num">{{ t.th_cloud_pct }}</th>
         <th class="num">{{ t.th_confidence }}</th>
-        <th>{{ t.th_scene }}</th>
+        <th class="hide-mobile">{{ t.th_scene }}</th>
       </tr>
     </thead>
     <tbody>
@@ -63,7 +68,7 @@
         <td class="num">{{ "%.0f"|format(r.healthy_pct) if r.healthy_pct is not none else "—" }}</td>
         <td class="num">{{ "%.0f"|format(r.cloud_pct) if r.cloud_pct is not none else "—" }}</td>
         <td class="num">{{ "%.2f"|format(r.confidence) if r.confidence is not none else "—" }}</td>
-        <td class="tiny">{{ r.scene_id or "—" }}</td>
+        <td class="tiny hide-mobile">{{ r.scene_id or "—" }}</td>
       </tr>
       {% endfor %}
     </tbody>
@@ -75,23 +80,49 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 <script>
 const series = {{ series_json|safe }};
-new Chart(document.getElementById('gov-chart'), {
+
+function sliceRange(days) {
+  if (!days) return series;
+  const cutoff = new Date();
+  cutoff.setDate(cutoff.getDate() - days);
+  const cutoffStr = cutoff.toISOString().slice(0, 10);
+  return series.filter(p => p.date >= cutoffStr);
+}
+
+const DEFAULT_RANGE_DAYS = 365;
+let view = sliceRange(DEFAULT_RANGE_DAYS);
+
+const chart = new Chart(document.getElementById('gov-chart'), {
   type: 'line',
   data: {
-    labels: series.map(p => p.date),
+    labels: view.map(p => p.date),
     datasets: [
-      { label: {{ t.chart_ndvi_label|tojson }}, data: series.map(p => p.mean_ndvi), borderColor: '#2f7d5c', backgroundColor: 'rgba(47,125,92,0.12)', tension: 0.28, fill: true, spanGaps: true, pointRadius: 0, borderWidth: 2 },
-      { label: {{ t.chart_ndmi_label|tojson }}, data: series.map(p => p.mean_ndmi), borderColor: '#0f4c81', tension: 0.28, fill: false, spanGaps: true, pointRadius: 0, borderWidth: 2 }
+      { label: {{ t.chart_ndvi_label|tojson }}, data: view.map(p => p.mean_ndvi), borderColor: '#2f7d5c', backgroundColor: 'rgba(47,125,92,0.12)', tension: 0.28, fill: true, spanGaps: true, pointRadius: 0, borderWidth: 2 },
+      { label: {{ t.chart_ndmi_label|tojson }}, data: view.map(p => p.mean_ndmi), borderColor: '#0f4c81', tension: 0.28, fill: false, spanGaps: true, pointRadius: 0, borderWidth: 2 }
     ]
   },
   options: {
     responsive: true, animation: false,
     plugins: { legend: { labels: { color: '#3a3f4a', font: { size: 12 } } } },
     scales: {
-      x: { grid: { display: false }, ticks: { color: '#6b6b76', font: { size: 11 } } },
+      x: { grid: { display: false }, ticks: { color: '#6b6b76', font: { size: 11 }, maxRotation: 0, autoSkip: true, maxTicksLimit: 8 } },
       y: { min: -0.5, max: 0.9, grid: { color: 'rgba(20,22,30,0.06)' }, ticks: { color: '#6b6b76', font: { size: 11 } } },
     },
   }
+});
+
+const rangeButtons = document.querySelectorAll('.chart-controls .range-btn');
+rangeButtons.forEach(btn => {
+  if (Number(btn.dataset.days) === DEFAULT_RANGE_DAYS) btn.classList.add('active');
+  btn.addEventListener('click', () => {
+    rangeButtons.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    view = sliceRange(Number(btn.dataset.days));
+    chart.data.labels = view.map(p => p.date);
+    chart.data.datasets[0].data = view.map(p => p.mean_ndvi);
+    chart.data.datasets[1].data = view.map(p => p.mean_ndmi);
+    chart.update();
+  });
 });
 </script>
 

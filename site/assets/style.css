@@ -241,6 +241,10 @@ h2 {
 .stat.drought-yellow .stat-value { color: var(--yellow); }
 .stat.drought-red    .stat-value { color: var(--red); }
 
+.stat-value.trend-up   { color: var(--green); }
+.stat-value.trend-down { color: var(--red); }
+.stat-value.trend-flat { color: var(--muted); }
+
 /* ---------- map ---------- */
 
 .map-section {
@@ -283,7 +287,11 @@ h2 {
 
 /* ---------- tables ---------- */
 
-.table-section { margin: 1.5rem 0 2rem; }
+.table-section {
+  margin: 1.5rem 0 2rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
 table {
   width: 100%;
   border-collapse: separate;
@@ -356,6 +364,21 @@ html[dir="rtl"] .spark svg { transform: scaleX(-1); }
   box-shadow: var(--shadow-sm);
 }
 .chart-section canvas { min-height: 240px; }
+
+.chart-controls { display: flex; gap: 0.4rem; margin-bottom: 0.9rem; }
+.range-btn {
+  border: 1px solid var(--border-strong);
+  background: var(--surface);
+  color: var(--ink-2);
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+.range-btn:hover { background: var(--brand-tint); color: var(--brand); }
+.range-btn.active { background: var(--brand); color: white; border-color: var(--brand); }
 
 /* ---------- misc ---------- */
 
@@ -479,6 +502,12 @@ html[dir="rtl"] .anomaly-line { border-radius: var(--radius-sm) 0 0 var(--radius
   .stats { grid-template-columns: 1fr; }
   nav a { padding: 0.35rem 0.55rem; font-size: 0.82rem; }
   .site-header .wrap { gap: 0.5rem; }
+}
+
+@media (max-width: 640px) {
+  /* Drop secondary columns (scene id, sparkline, region/governorate) so the
+     remaining ones fit without forcing the whole page to scroll sideways. */
+  .hide-mobile { display: none; }
 }
 
 /* ---------- print (in case anyone tries) ---------- */

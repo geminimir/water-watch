@@ -150,6 +150,9 @@ STRINGS: dict[str, dict[str, str]] = {
     "chart_baseline_config": {"fr": "Moyenne à long terme", "ar": "المتوسط طويل الأمد"},
     "chart_ndvi_label": {"fr": "NDVI (verdure)", "ar": "NDVI (الاخضرار)"},
     "chart_ndmi_label": {"fr": "NDMI (humidité)", "ar": "NDMI (الرطوبة)"},
+    "chart_range_1y": {"fr": "1 an", "ar": "سنة"},
+    "chart_range_5y": {"fr": "5 ans", "ar": "5 سنوات"},
+    "chart_range_all": {"fr": "Tout", "ar": "الكل"},
 
     # About page
     "about_h1": {"fr": "À propos de Tunisia Water Watch", "ar": "حول مراقبة مياه تونس"},

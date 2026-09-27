@@ -146,11 +146,11 @@
     <thead>
       <tr>
         <th>{{ t.th_dam }}</th>
-        <th>{{ t.th_governorate }}</th>
-        <th>{{ t.th_last_reading }}</th>
+        <th class="hide-mobile">{{ t.th_governorate }}</th>
+        <th class="hide-mobile">{{ t.th_last_reading }}</th>
         <th class="num">{{ t.th_surface_km2 }}</th>
         <th class="num">{{ t.th_pct_of_avg }}</th>
-        <th class="spark">·</th>
+        <th class="spark hide-mobile">·</th>
         <th>{{ t.th_status }}</th>
       </tr>
     </thead>
@@ -158,11 +158,11 @@
       {% for d in dams %}
       <tr>
         <td><a href="dam/{{ d.id }}.html">{{ d.display_name }}</a></td>
-        <td class="muted">{{ d.display_governorate }}</td>
-        <td class="tiny">{{ d.last_date or "—" }}</td>
+        <td class="muted hide-mobile">{{ d.display_governorate }}</td>
+        <td class="tiny hide-mobile">{{ d.last_date or "—" }}</td>
         <td class="num">{{ "%.2f"|format(d.surface_area_km2) if d.surface_area_km2 is not none else "—" }}</td>
         <td class="num">{{ "%.0f"|format(d.pct_of_avg) if d.pct_of_avg is not none else "—" }}</td>
-        <td class="spark">{{ d.sparkline|safe }}</td>
+        <td class="spark hide-mobile">{{ d.sparkline|safe }}</td>
         <td><span class="badge badge-{{ d.status }}">{{ d.display_status }}</span></td>
       </tr>
       {% endfor %}
