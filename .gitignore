@@ -12,3 +12,8 @@ venv/
 *.tiff
 *.jp2
 !site/**/*
+
+# One-off proposal outputs from calibrate.py / recalibrate.py — never read
+# by the pipeline, regenerate locally when needed.
+config/dams_recalibrated.json
+config/dams.recalibrated.json

@@ -52,7 +52,8 @@ class TestRender(unittest.TestCase):
                 ])
             with patch.object(render, "READINGS_CSV", csv_path), \
                  patch.object(render, "SITE", tmp_site), \
-                 patch.object(render, "LATEST_JSON", tmp_data / "latest.json"):
+                 patch.object(render, "LATEST_JSON", tmp_data / "latest.json"), \
+                 patch.object(render, "COMPOSITE_HISTORY", tmp_data / "composite_history.csv"):
                 render.render_site("test/repo")
             # Language picker at root
             self.assertTrue((tmp_site / "index.html").exists())

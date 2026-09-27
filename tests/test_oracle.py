@@ -51,7 +51,8 @@ class TestOracle(unittest.TestCase):
             with patch.object(render, "READINGS_CSV", csv_path), \
                  patch.object(render, "GOV_CSV", gov_path), \
                  patch.object(render, "LATEST_JSON", latest_path), \
-                 patch.object(render, "SITE", tmp_site):
+                 patch.object(render, "SITE", tmp_site), \
+                 patch.object(render, "COMPOSITE_HISTORY", tmp_data / "composite_history.csv"):
                 render.render_site("test/repo")
 
             oracle_dir = tmp_site / "oracle"
