@@ -1,266 +1,266 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-26 10:58 UTC",
+  "generated_at": "2026-10-01 12:35 UTC",
   "algorithm": "sha256",
   "files": {
     "oracle/dams/sidi-salem.json": {
-      "sha256": "d4753a253828133cac7e4049d387b930493c811ef3fa84a6d12968cedc7b4770",
+      "sha256": "a426ff451ab1dfd74829b7b63f1f38b26645c2fbeee8efc79961811a8d2cc5d8",
       "type": "dam-history"
     },
     "oracle/dams/sidi-el-barrak.json": {
-      "sha256": "f6d843139983af44d378beb9c0672ebb98bd3a40d54abc98e6ef051122961aaf",
+      "sha256": "a55ef2fff9560d5d08499cbd0263da45d483eeed58114b50c1ca93dee614ed19",
       "type": "dam-history"
     },
     "oracle/dams/sejnane.json": {
-      "sha256": "2a1a59a093e7f847031f1ed900378e01bb8c50126c4911cd85ab75403d933360",
+      "sha256": "e4d49e7fabf844e87eff629da515eae929d1aa8b850f390f2a106c98110fa8ed",
       "type": "dam-history"
     },
     "oracle/dams/joumine.json": {
-      "sha256": "01d98143a5a1ccfadb6fb41bff4e0bc62c177d13489dd79a73236a45476cc209",
+      "sha256": "7191dcb28fc6dc7216b8a69b6e2fcbdeee1bb673a21cfabe08be1df6777e4743",
       "type": "dam-history"
     },
     "oracle/dams/ghezala.json": {
-      "sha256": "2f1c120c6cd74f0a679c9a01991448d32c2b0f5d7d2b6a1f5e1a624b3f436625",
+      "sha256": "2d12ccd82bf65962542714c9898339574977b3f472f69f55c342e6485407b2d4",
       "type": "dam-history"
     },
     "oracle/dams/zerga.json": {
-      "sha256": "341a6c1515426e1b6dcc184a4462a762e8bd38459318b29c0df33519e7dbbb37",
+      "sha256": "6735a762232cfb12a141f2de919339a3b4f4c11123729a43fb7cd241b554f2e8",
       "type": "dam-history"
     },
     "oracle/dams/kasseb.json": {
-      "sha256": "03bfe9a90787fa7532db104e1bb9d21409b6f8bd8d8509975d74cffa1c728b0c",
+      "sha256": "29313baaf28f16a96e96803aab53575f1bf03ccde5aac4f29df6897010a19ce7",
       "type": "dam-history"
     },
     "oracle/dams/beni-mtir.json": {
-      "sha256": "0bb2cd7d2cffd5846de92430d6ef3e9f8c052b087003e4b7c37fe994cc6bc20c",
+      "sha256": "64b0b0529513fb70ae04c7a8f71aaff93bd374cf215e5d87ae7df236f25f5893",
       "type": "dam-history"
     },
     "oracle/dams/bou-heurtma.json": {
-      "sha256": "8b02e4cb05f04ae8020f592d17e57b86b1b50fc7baf7064a98712ee53bf3fd6a",
+      "sha256": "a727e248bdee7a3d6889da72080c6cef87b2edb3e6617b016f0823376f569a68",
       "type": "dam-history"
     },
     "oracle/dams/barbara.json": {
-      "sha256": "c3e3492a5f100abeecf48b450f33411f677e0a5b144f4af3a6e1442b1f8f2802",
+      "sha256": "bd3e3284cca4372186d3997936bfe55079ce8fd94d5b337867e9d5c4ec197aba",
       "type": "dam-history"
     },
     "oracle/dams/mellegue.json": {
-      "sha256": "a2645085ce37d5746b024066946ddc193af42082dd393b3b14c63d6eb12665e9",
+      "sha256": "47dd264b95548a15bdd8791217a10d0bff14e1a018415a36d7926c8928e39d6d",
       "type": "dam-history"
     },
     "oracle/dams/sarrat.json": {
-      "sha256": "09607c069f24b2a0b93ea45c69ec52eeafbd53e1e80cae1a655b469743e7029f",
+      "sha256": "ca4b073e21a46d47a257eee48c0a97d2932268754deb5bdaa7f98dfdf8f1e4ea",
       "type": "dam-history"
     },
     "oracle/dams/siliana.json": {
-      "sha256": "a4a1c90139d9a561243db59533961510527d668191156b40a14db7af8bfe4a28",
+      "sha256": "d86819fe6308ad3b7db52d1ae249baaf6e1f47232e219f0a64eac8725931757e",
       "type": "dam-history"
     },
     "oracle/dams/lakhmess.json": {
-      "sha256": "de884beef77b633982012430ac1f9b9d83c67f4f45e96f033ea6333ca1cbd546",
+      "sha256": "ae1a76af1df87927c4b748dde352ee771eb34d6eb6bfcfe90466d70d93937a48",
       "type": "dam-history"
     },
     "oracle/dams/rmil.json": {
-      "sha256": "c3e94eedf5b50710d25e374c0cfa0a9a59bc65c09e635329dd393375b91371d7",
+      "sha256": "f75e23809262fe557d5323b288c1a1f6142bc7b551e7ffa9806f21b78b777d10",
       "type": "dam-history"
     },
     "oracle/dams/bir-mcherga.json": {
-      "sha256": "35b1d6470380f88bef96b296662fb2ca49e4093bf90432053971917078213a7b",
+      "sha256": "5174c716c6ca5f24ee15b998ce2dd102edb6d5ac2f0385056f17d03792443b32",
       "type": "dam-history"
     },
     "oracle/dams/el-aroussia.json": {
-      "sha256": "3df501413bf3d8fb0bb7ca3aec84b4245a66f0046fefaef18710fd27bb56bdf2",
+      "sha256": "7dbe15ca7c6638a78181a76fd5cb38e3f3609e3a94a6304f6c1948276f04182c",
       "type": "dam-history"
     },
     "oracle/dams/el-houareb.json": {
-      "sha256": "cbab4e669243f952f10a306342c1b5d492d461a7bfab0e617e29fb84226112ce",
+      "sha256": "958be51c87fd0507c9c7cd545baf8159d3a99cf8ecdcfc5b23041fa4d8553820",
       "type": "dam-history"
     },
     "oracle/dams/nebhana.json": {
-      "sha256": "93dca206520bd6fd0d763bbc0f38fc4d213363879b9e310205154193a4c1efff",
+      "sha256": "1edc8d7b38299a04cd412d98107cd824daca85072ad48057c7e169b6e7f745ad",
       "type": "dam-history"
     },
     "oracle/dams/sidi-saad.json": {
-      "sha256": "a4cb05b8cb8f9fcbd5b70b82e00af5f433a3c5f44628e9bec8f08002add54058",
+      "sha256": "b4c763ee23f182999c9b59cf7a25cc796960373db8e485e8d8a3a783fcd29a0b",
       "type": "dam-history"
     },
     "oracle/dams/chiba.json": {
-      "sha256": "e17db06cf7b331c37d531579bc1ef526c04be513a2c64e5235c1478dddd9a44e",
+      "sha256": "df2e31fee481c4710ce7e87a7f2bc9542947c45623fadf4d96fa475994b1b52d",
       "type": "dam-history"
     },
     "oracle/dams/masri.json": {
-      "sha256": "994fabb5f1db7558927316aee33d4b3efbb865a08f955b5ffde58d6f8bbe33ec",
+      "sha256": "fed2b50a3105e36052f728e50cced93064482feceb261a1d2132df2bd7e91a36",
       "type": "dam-history"
     },
     "oracle/dams/lebna.json": {
-      "sha256": "d2054cf2f32fe16f671487e81865dcb45482289590f601004a707f45f9af0747",
+      "sha256": "aecfe691e251585e6c505f0153b9ed9c5165dea459ac036265aef818d5567b97",
       "type": "dam-history"
     },
     "oracle/dams/abid.json": {
-      "sha256": "bf011858a0490740cc4e0ff6efbe8967a1f0e0e178520fd835fb849daf91e516",
+      "sha256": "9d9773edf6c004abc7c17d3eaa5fd8dd28d66a16afbe146667f73101ada1bbf4",
       "type": "dam-history"
     },
     "oracle/dams/tessa.json": {
-      "sha256": "0b8ad23c4d99ec1f997701f0f11f2feac7040493de890a1be876486ece43737e",
+      "sha256": "328d5fb5af7b917af564fb3fbf67552eb8992d3f42002813adff2478efe96dab",
       "type": "dam-history"
     },
     "oracle/dams/ziatine.json": {
-      "sha256": "aa85928ec993d23958c97fcf4e01a4603364cc8cad211c1624f419bfe762eba6",
+      "sha256": "72ed5b6dd9f26c1e2ec6ab5abc529c518eb4f5c6451a7c3748927bba0f56cae0",
       "type": "dam-history"
     },
     "oracle/dams/gamgoum.json": {
-      "sha256": "ea9da134dfa9edd888c107db33dca115ad995e80b3da24479e1f38eac12cba84",
+      "sha256": "372533024843beee1359b8d739a98950d3888bbbfc5d3da5e2cb505f14d6cd51",
       "type": "dam-history"
     },
     "oracle/dams/moula.json": {
-      "sha256": "d168ee36e553964fa29d95b84ff7f31c00ca4a0311678996decd388d21fe28c8",
+      "sha256": "a104038c36100d149680d050d3382e7867ecaaf266103f55bf8321884a0f644f",
       "type": "dam-history"
     },
     "oracle/dams/melah.json": {
-      "sha256": "59c4a9e06d6cd906901dd4b2ce892fbf630541c0edf992c2653e8dc9b87533a3",
+      "sha256": "11dbc2f5e40292fb38c2cbc656dd8bd6fcb6ddbb0ef8da9e4ffbe5b874a1f31b",
       "type": "dam-history"
     },
     "oracle/dams/harka.json": {
-      "sha256": "38ea48aa6bc8cf214dff631880c748cbb2a29e388bada27ca0ccdb04232949e4",
+      "sha256": "8c4d0ea4dbd76a68b5e4460bcd55e7df764f1a4a1ea1b6e580aea5056a24733b",
       "type": "dam-history"
     },
     "oracle/dams/bou-hertma-lower.json": {
-      "sha256": "04df756d11baa5c889df27e89ca4432b5ba1cfba4906e248ab850a98ccf549df",
+      "sha256": "2e2aacae8b9cd4ab3d0f766fc7e08f883d31ae8e9f9d6112ceff06203e4a7fe2",
       "type": "dam-history"
     },
     "oracle/dams/kebir.json": {
-      "sha256": "d8358acd8fa7a4b25023619d9961372aade9e087ce773d873905faf78416141c",
+      "sha256": "082e854f678e6359f1d62660936c385fb15222c2c19b1be1ea886e0e748bd80e",
       "type": "dam-history"
     },
     "oracle/dams/douimis.json": {
-      "sha256": "bdae77880a78ddc882624c4709da361d7ae844b4012a7c50f9d2fe673ab666e6",
+      "sha256": "0ea72ddbda18aaad3253b7a0115de645a0b6034adc9e312f1bef88d36603aec7",
       "type": "dam-history"
     },
     "oracle/dams/el-breck.json": {
-      "sha256": "c28f6fad7d4aa1aaf149c067a12c6cc8e84e6094b076437c1590edc721bc609c",
+      "sha256": "af10bd095b37ef4f03cf546ee78b6386e6e405d094808565634182f29cb558e6",
       "type": "dam-history"
     },
     "oracle/dams/sidi-abdelmoumen.json": {
-      "sha256": "fea1f0f60226bfa1f7121be7bb9053907f31e62a0634736a42506d871ea5e12f",
+      "sha256": "e470644da909a9201868e5ddb446c824f8ccc32198ad2b3f5109f86ee5e1c7b5",
       "type": "dam-history"
     },
     "oracle/dams/rmel.json": {
-      "sha256": "d5987d345e971c28e34ef1469d58b1d2b5f28b78229ec06b3e5c9a2dfbafef57",
+      "sha256": "1948ca268f891b7831dfff7eeedea41a4cd1c34fff0124cc1953d05bae529ca7",
       "type": "dam-history"
     },
     "oracle/dams/el-abid.json": {
-      "sha256": "63e0db38a97fcefd15d120ada596b33bc7426f0befcd36f1493ad02b8e2d5fca",
+      "sha256": "5a9a985a86bd203650058f8520cab7d6cb4d455fd15553b5d65163777f338d07",
       "type": "dam-history"
     },
     "oracle/governorates/tunis.json": {
-      "sha256": "e2bd3b858c865ca21447b3aefc8ff9726a28c827af6b64060aaf4679c78132e1",
+      "sha256": "16c885d5ccb1c7d3474cc1eee067c1fd6ccb8d7a3f4bb8ea6dac6444b5028319",
       "type": "governorate-history"
     },
     "oracle/governorates/ariana.json": {
-      "sha256": "b3271e53dcef29c8f55078328df28e73fd109536e03ca4782ffcafffbd7175aa",
+      "sha256": "840ec6e0d00187ca73d64bc06a021c6d8912311a4f66bc4d29962a1ec4bdcf08",
       "type": "governorate-history"
     },
     "oracle/governorates/ben-arous.json": {
-      "sha256": "175a57cee0dfd7d5bf1f6b85b4dc825dc65d5c1f242852a25f2b9282e7d3e603",
+      "sha256": "bafe5a0946baf75746709d908685011cc2a6e06d64ca19db926b50acc71ad8e9",
       "type": "governorate-history"
     },
     "oracle/governorates/manouba.json": {
-      "sha256": "542f7ccff303db7f50032fecd3e5768c9c6d9b26ce51c395cbd9d2a5735c2cf1",
+      "sha256": "cd19d27027dc83b5f7aa123242dfc1e43dbd44434465cdb1738ae5184155d0a8",
       "type": "governorate-history"
     },
     "oracle/governorates/nabeul.json": {
-      "sha256": "89520bb0b13fd889eb7acad2b6716e7cac9b98cc87db93faa1dab24d7aea065a",
+      "sha256": "783ab503d7b83aa858260bc065156a84c1188595652d3ca59c8e831255b9386c",
       "type": "governorate-history"
     },
     "oracle/governorates/zaghouan.json": {
-      "sha256": "7ce775d52d149820e8573d94b2fc8ce1b4cce0c566ab033e8334411df9aaa457",
+      "sha256": "bfa634282ef42325caf1c08bd9c0ed9daa9f17483801beb878597efeafc14426",
       "type": "governorate-history"
     },
     "oracle/governorates/bizerte.json": {
-      "sha256": "3f4d877632932c44d793c925df8c8075684a3871c5ca35caba9ff6084c8d1822",
+      "sha256": "d36032d6063b9c2614ded442c45be5ec3ae0d30de04a7a9d5bd0c7a4bc6d4ec1",
       "type": "governorate-history"
     },
     "oracle/governorates/beja.json": {
-      "sha256": "502a9e44b53c04072e53795d9977bd97727d4163a9617eb3e5d46bfa61b2ef07",
+      "sha256": "9289c86fccc4106a7284da41c2988b512adc809372a03222c1ad255bd5913856",
       "type": "governorate-history"
     },
     "oracle/governorates/jendouba.json": {
-      "sha256": "0f198d35f7c5126d39dcef16beb25325d75ecacd5c75d627e9e05ff080ccfd6f",
+      "sha256": "99c228a72120160b818f7a8cc56edfba999de4a121f77fb2d81f2eef259df68c",
       "type": "governorate-history"
     },
     "oracle/governorates/kef.json": {
-      "sha256": "99ebe0f0518e8f12d74a1b70d00d800ad8aaee1a5fe6b82204f9d28256cc0b35",
+      "sha256": "22222d438d600717f23eb4a5d868fdefa46a105824ca41a0bfcdeb0ab126b7e8",
       "type": "governorate-history"
     },
     "oracle/governorates/siliana.json": {
-      "sha256": "14573ab21888930d4e433a0dad441754333dba1bf47791282460ffe07af504be",
+      "sha256": "7713e10899f99070cd91644faf77cfdbb365c90e2f0fbc6a9e02426899191f60",
       "type": "governorate-history"
     },
     "oracle/governorates/sousse.json": {
-      "sha256": "86977fe4299293fcc263ed5a3efbedcffcde05094b8216c7dff11a7f4d4d343c",
+      "sha256": "25c8121bf6c02cf2a6560d57c3f83b07fe01a48d4ce25fa6e8a579c2d0b8c6e9",
       "type": "governorate-history"
     },
     "oracle/governorates/monastir.json": {
-      "sha256": "82101ce2ce68429bc550b074835f9edc596863585ff0b68353f7cb3dcf3535b4",
+      "sha256": "1707c03764de6e6d8cfb9fa45bd2dfd2c44f96c683747282b7d76589ca252f3c",
       "type": "governorate-history"
     },
     "oracle/governorates/mahdia.json": {
-      "sha256": "9dd2b2a15db6cfff5e02ceeaffd89b8a35192434615b237417e604211df0bd13",
+      "sha256": "2ad16a9b22866f393c473b8c232d741274e122592a445ac23df51151dc0bb095",
       "type": "governorate-history"
     },
     "oracle/governorates/sfax.json": {
-      "sha256": "95140b44c4348ac9507264434af181ab3c7a5f8e1ba4ec2ce44bda6e433d27a9",
+      "sha256": "d072c54f7bafbaf18128f4b8eec367f70cb2bee060e59460e5b894e8a7ceeb85",
       "type": "governorate-history"
     },
     "oracle/governorates/kairouan.json": {
-      "sha256": "3d6b0738d5f7d1a9b7ca7ee6355df6e5a7cfb1847f9a318012f73aa9f83f77e8",
+      "sha256": "01da4a0cc17241d007ffa3fbf3d7daf56e6a2e364a477ebb35335c2311e63aac",
       "type": "governorate-history"
     },
     "oracle/governorates/kasserine.json": {
-      "sha256": "51e870b375e40e1db3b5ea6e753a0241a74b893a326a4afafccd76713297cb74",
+      "sha256": "8b033449a8bed2c2f53c93ce62fa9e56d8f4aa22ec4dff083b63b1cce75e41a3",
       "type": "governorate-history"
     },
     "oracle/governorates/sidi-bouzid.json": {
-      "sha256": "8c5bb2bd415ac69a26fa12e88a910ee8f7d112ab4eac1967fee6fce58387bcb0",
+      "sha256": "75c03ec2b91f61840ad6725146cde327db00d277d5658a348ebf40517e1c060c",
       "type": "governorate-history"
     },
     "oracle/governorates/gabes.json": {
-      "sha256": "e867922b55197a80092aca9b6e63f6ae3c70fdae71a382aae2071bb82b640e9c",
+      "sha256": "6d32bcb159c9904aeda78dc65ee2541d63175717ce3459edfbdd546ebc255ccf",
       "type": "governorate-history"
     },
     "oracle/governorates/medenine.json": {
-      "sha256": "5a67e3afe62a26a6f4059ad5fed52420582db0287822012190a7569720957414",
+      "sha256": "6becefcd3ed921037b6c82a303ba427fb4e467087a4fcee4659677c7adf72c02",
       "type": "governorate-history"
     },
     "oracle/governorates/tataouine.json": {
-      "sha256": "6fff05204c9db735644bb61d71adea869d7137254571145aff80004f5401e0a7",
+      "sha256": "74340bc5c45a0adc928a13443846dacec56ced6ace1fc9a0b4ca247603078aaf",
       "type": "governorate-history"
     },
     "oracle/governorates/gafsa.json": {
-      "sha256": "34ad06adcf2abdbf3370bfcd8f3319a13612fe460a937b26ad65b1a15f4f4eff",
+      "sha256": "d597765e7c5d4129c333768fac73f0333b19aa4a8e506c457f90f641409a6b1f",
       "type": "governorate-history"
     },
     "oracle/governorates/tozeur.json": {
-      "sha256": "8adda9b1d47bbfb1f2b00abb04324ad5db4badd8fac7f2a9c71198e573b33e9f",
+      "sha256": "be9313ef394f223826d14ce153aaed68dbf5e118a11375b141b00d9bcd6dc31c",
       "type": "governorate-history"
     },
     "oracle/governorates/kebili.json": {
-      "sha256": "2b6d2d7afb1d5067d13c2dba4f86c2bea3234ddb52cb9d73293f0b8c2ec2d55d",
+      "sha256": "1a8c92755607a36a0054b54b6ffa90827aea934d108f6dbdbbae2eddc36569e4",
       "type": "governorate-history"
     },
     "oracle/anomalies.json": {
-      "sha256": "8fab35bb69d338f8d0c56171762b8c341f79b963215e5c2b305ae4ab9e0f1cde",
+      "sha256": "0be3f77069fb3d20b8d005c4157fec7a277c77faf023b8bfc6c0c450d7b66e4b",
       "type": "anomalies-snapshot"
     },
     "oracle/monthly.json": {
-      "sha256": "3bba4f815e6e8d0fca675da9e2e7bcffb652ac5e9975932a2c8830792741eb7b",
+      "sha256": "95f6e9f7b52f3072ba5729b068ac2f828cc2720eb6950959a90272c3702b8677",
       "type": "monthly-aggregate"
     },
     "oracle/latest.json": {
-      "sha256": "3f86caf62565c5166593ddbc28f24ce09da5dfab83d4763f924d2b8691d82343",
+      "sha256": "52e12e232a5df9e50f7d67f61b717a323ce58f1c7d76457f01db8593107c6481",
       "type": "latest-summary"
     },
     "oracle/index.json": {
-      "sha256": "e486543de4e7861c4ac1a45f07f177b508b5e00ef56d701791fca16dd3fec6a9",
+      "sha256": "ddbfdc7903b7b67e2b0fd6b11098bcc8789d4276a325156240e6744b4615ed4e",
       "type": "index"
     }
   }
