@@ -1099,6 +1099,15 @@
       "confidence": 0.403,
       "pct_of_avg": 0.2285714285714286,
       "scene_id": "S2C_32SNE_20261004_0_L2A"
+    },
+    {
+      "date": "2026-10-11",
+      "surface_area_km2": 0.004,
+      "surface_area_mndwi_km2": 0.005,
+      "cloud_pct": 0.0,
+      "confidence": 0.86,
+      "pct_of_avg": 0.1142857142857143,
+      "scene_id": "S2A_32SNE_20261006_1_L2A"
     }
   ],
   "monthly_medians_km2": {
@@ -1219,5 +1228,5 @@
     "2026-09": 0.0015,
     "2026-10": 0.004
   },
-  "generated_at": "2026-10-06 12:55 UTC"
+  "generated_at": "2026-10-11 12:15 UTC"
 }
