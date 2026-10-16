@@ -8,7 +8,7 @@
   "capacity_hm3": 30,
   "ndwi_threshold": 0.05,
   "historical_avg_km2": 3.0,
-  "effective_baseline_km2": 2.62,
+  "effective_baseline_km2": 2.75,
   "baseline_source": "rolling-monthly",
   "readings": [
     {
@@ -80,7 +80,7 @@
       "surface_area_mndwi_km2": null,
       "cloud_pct": 36.3,
       "confidence": null,
-      "pct_of_avg": 121.3495996950057,
+      "pct_of_avg": 115.7244137429558,
       "scene_id": "S2B_32SPF_20171013_0_L2A"
     },
     {
@@ -188,7 +188,7 @@
       "surface_area_mndwi_km2": null,
       "cloud_pct": 38.3,
       "confidence": null,
-      "pct_of_avg": 31.605032405642387,
+      "pct_of_avg": 30.1399745500818,
       "scene_id": "S2B_32SPF_20181008_0_L2A"
     },
     {
@@ -296,7 +296,7 @@
       "surface_area_mndwi_km2": null,
       "cloud_pct": 0.1,
       "confidence": null,
-      "pct_of_avg": 194.7769729317575,
+      "pct_of_avg": 185.74804580985273,
       "scene_id": "S2A_32SPF_20191018_0_L2A"
     },
     {
@@ -404,7 +404,7 @@
       "surface_area_mndwi_km2": null,
       "cloud_pct": 0.1,
       "confidence": null,
-      "pct_of_avg": 187.30461303850552,
+      "pct_of_avg": 178.62206871477912,
       "scene_id": "S2A_32SPF_20201002_1_L2A"
     },
     {
@@ -512,7 +512,7 @@
       "surface_area_mndwi_km2": null,
       "cloud_pct": 6.5,
       "confidence": null,
-      "pct_of_avg": 100.0,
+      "pct_of_avg": 95.36447918560262,
       "scene_id": "S2B_32SPF_20211012_0_L2A"
     },
     {
@@ -620,7 +620,7 @@
       "surface_area_mndwi_km2": null,
       "cloud_pct": 0.1,
       "confidence": null,
-      "pct_of_avg": 63.476934807472354,
+      "pct_of_avg": 60.53444828213052,
       "scene_id": "S2A_32SPF_20221022_0_L2A"
     },
     {
@@ -719,7 +719,7 @@
       "surface_area_mndwi_km2": null,
       "cloud_pct": 0.0,
       "confidence": null,
-      "pct_of_avg": 36.789935188715205,
+      "pct_of_avg": 35.084530085439006,
       "scene_id": "S2B_32SPF_20231012_0_L2A"
     },
     {
@@ -827,7 +827,7 @@
       "surface_area_mndwi_km2": null,
       "cloud_pct": 0.0,
       "confidence": null,
-      "pct_of_avg": 1.9443385436523062,
+      "pct_of_avg": 1.8542083257589528,
       "scene_id": "S2A_32SPF_20241001_0_L2A"
     },
     {
@@ -935,7 +935,7 @@
       "surface_area_mndwi_km2": null,
       "cloud_pct": 18.8,
       "confidence": null,
-      "pct_of_avg": 46.740373617994656,
+      "pct_of_avg": 44.57371387020541,
       "scene_id": "S2A_32SPF_20251008_0_L2A"
     },
     {
@@ -1097,7 +1097,7 @@
       "surface_area_mndwi_km2": 2.925,
       "cloud_pct": 25.5,
       "confidence": 0.984,
-      "pct_of_avg": 109.72169271826152,
+      "pct_of_avg": 104.63552081439738,
       "scene_id": "S2C_32SPF_20261001_0_L2A"
     },
     {
@@ -1106,8 +1106,17 @@
       "surface_area_mndwi_km2": 4.976,
       "cloud_pct": 0.4,
       "confidence": 0.984,
-      "pct_of_avg": 186.6565001906214,
+      "pct_of_avg": 178.00399927285946,
       "scene_id": "S2B_32SPF_20261006_0_L2A"
+    },
+    {
+      "date": "2026-10-16",
+      "surface_area_km2": 4.727,
+      "surface_area_mndwi_km2": 4.82,
+      "cloud_pct": 6.4,
+      "confidence": 0.981,
+      "pct_of_avg": 171.85966187965826,
+      "scene_id": "S2A_32SPF_20261013_0_L2A"
     }
   ],
   "monthly_medians_km2": {
@@ -1223,7 +1232,7 @@
     "2026-07": 5.98,
     "2026-08": 5.637,
     "2026-09": 5.144,
-    "2026-10": 3.887
+    "2026-10": 4.727
   },
-  "generated_at": "2026-10-11 12:15 UTC"
+  "generated_at": "2026-10-16 10:52 UTC"
 }
