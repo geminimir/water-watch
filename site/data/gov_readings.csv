@@ -2993,3 +2993,27 @@ date,gov_id,gov_name,region,mean_ndvi,std_ndvi,mean_ndmi,healthy_pct,cloud_pct,c
 2026-10-26,gafsa,Gafsa,south,0.0955,0.0695,-0.0952,1.60,3.0,0.970,S2C_32SMC_20261024_0_L2A
 2026-10-26,tozeur,Tozeur,south,0.0825,0.1044,-0.0667,5.26,1.4,0.986,S2C_32SLC_20261024_0_L2A
 2026-10-26,kebili,Kebili,south,0.0995,0.1241,-0.0369,6.42,25.1,0.749,S2C_32SMC_20261024_0_L2A
+2026-10-31,tunis,Tunis,north,0.2225,0.1798,-0.0286,16.20,0.0,1.000,S2A_32SNF_20261023_0_L2A
+2026-10-31,ariana,Ariana,north,,,,,71.3,,S2A_32SPG_20261026_0_L2A
+2026-10-31,ben-arous,Ben Arous,north,0.2448,0.1627,-0.1129,10.61,7.7,0.923,S2A_32SNF_20261023_0_L2A
+2026-10-31,manouba,Manouba,north,0.2217,0.1389,-0.1474,6.83,0.0,1.000,S2A_32SNF_20261023_0_L2A
+2026-10-31,nabeul,Nabeul,cap-bon,0.3415,0.1951,-0.0662,24.31,18.1,0.819,S2A_32SPF_20261023_0_L2A
+2026-10-31,zaghouan,Zaghouan,north,0.2673,0.1552,-0.1172,12.88,23.8,0.762,S2A_32SNF_20261023_0_L2A
+2026-10-31,bizerte,Bizerte,north,0.2447,0.1591,-0.1702,10.58,0.1,0.999,S2A_32SNF_20261023_0_L2A
+2026-10-31,beja,Béja,north,,,,,,,
+2026-10-31,jendouba,Jendouba,north,,,,,,,
+2026-10-31,kef,Le Kef,north,,,,,,,
+2026-10-31,siliana,Siliana,centre-west,,,,,49.2,,S2A_32SNE_20261026_1_L2A
+2026-10-31,sousse,Sousse,sahel,,,,,,,
+2026-10-31,monastir,Monastir,sahel,,,,,,,
+2026-10-31,mahdia,Mahdia,sahel,,,,,,,
+2026-10-31,sfax,Sfax,sahel,0.1258,0.0549,-0.1183,0.66,25.5,0.745,S2C_32SPD_20261021_0_L2A
+2026-10-31,kairouan,Kairouan,centre-west,0.1748,0.1339,-0.1196,7.30,19.7,0.803,S2A_32SNE_20261026_1_L2A
+2026-10-31,kasserine,Kasserine,centre-west,0.2007,0.1090,-0.1074,5.38,2.9,0.971,S2A_32SMD_20261026_0_L2A
+2026-10-31,sidi-bouzid,Sidi Bouzid,centre-west,,,,,57.4,,S2A_32SND_20261026_0_L2A
+2026-10-31,gabes,Gabès,south,0.1032,0.0897,-0.0974,3.04,4.2,0.958,S2B_32SNC_20261026_1_L2A
+2026-10-31,medenine,Medenine,south,0.1041,0.0400,-0.1193,0.26,0.0,1.000,S2B_32SPB_20261026_0_L2A
+2026-10-31,tataouine,Tataouine,south,0.0925,0.0143,-0.1310,0.00,0.0,1.000,S2B_32SNB_20261026_1_L2A
+2026-10-31,gafsa,Gafsa,south,0.1000,0.0648,-0.0823,1.64,0.0,1.000,S2A_32SMC_20261026_1_L2A
+2026-10-31,tozeur,Tozeur,south,0.0891,0.1010,-0.0513,5.39,1.6,0.984,S2A_32SLC_20261026_0_L2A
+2026-10-31,kebili,Kebili,south,0.1072,0.1322,-0.0216,8.06,0.1,0.999,S2A_32SMC_20261026_1_L2A

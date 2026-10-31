@@ -1,105 +1,35 @@
 {
-  "generated_at": "2026-10-26 12:24 UTC",
+  "generated_at": "2026-10-31 11:48 UTC",
   "dams": [
-    {
-      "id": "joumine",
-      "name": "Joumine",
-      "name_ar": "جومين",
-      "severity_score": 96.525,
-      "band": "severe",
-      "pct_of_avg": 6.950000000000001,
-      "z_score_water": 2.3208636006914016,
-      "date": "2026-10-26"
-    },
     {
       "id": "zerga",
       "name": "Zerga",
       "name_ar": "الزرقاء",
-      "severity_score": 98.69281045751634,
+      "severity_score": 98.65771812080537,
       "band": "severe",
-      "pct_of_avg": 2.6143790849673203,
-      "z_score_water": -1.112878551658893,
-      "date": "2026-10-26"
-    },
-    {
-      "id": "kasseb",
-      "name": "Kasseb",
-      "name_ar": "الكاسب",
-      "severity_score": 98.9,
-      "band": "severe",
-      "pct_of_avg": 2.2,
-      "z_score_water": 0.31628084305220855,
-      "date": "2026-10-26"
-    },
-    {
-      "id": "barbara",
-      "name": "Barbara",
-      "name_ar": "بربرة",
-      "severity_score": 99.025,
-      "band": "severe",
-      "pct_of_avg": 1.95,
-      "z_score_water": -0.005819102687900054,
-      "date": "2026-10-26"
-    },
-    {
-      "id": "mellegue",
-      "name": "Mellegue (Nebeur)",
-      "name_ar": "ملاق (نبر)",
-      "severity_score": 98.55625,
-      "band": "severe",
-      "pct_of_avg": 2.8875,
-      "z_score_water": 0.7653563282939716,
-      "date": "2026-10-26"
-    },
-    {
-      "id": "sarrat",
-      "name": "Sarrat",
-      "name_ar": "السراط",
-      "severity_score": 99.4,
-      "band": "severe",
-      "pct_of_avg": 1.2,
-      "z_score_water": -0.4187018961581726,
-      "date": "2026-10-26"
-    },
-    {
-      "id": "siliana",
-      "name": "Siliana",
-      "name_ar": "سليانة",
-      "severity_score": 100.0,
-      "band": "severe",
-      "pct_of_avg": 0.0,
-      "z_score_water": -0.894131552905535,
-      "date": "2026-10-26"
-    },
-    {
-      "id": "lakhmess",
-      "name": "Lakhmess",
-      "name_ar": "لخمس",
-      "severity_score": 50.0,
-      "band": "watch",
-      "pct_of_avg": 100.0,
-      "z_score_water": 0.1770249555531548,
-      "date": "2026-10-26"
+      "pct_of_avg": 2.684563758389262,
+      "z_score_water": -1.0329500750923506,
+      "date": "2026-10-31"
     },
     {
       "id": "rmil",
       "name": "Rmil",
       "name_ar": "الرميل",
-      "severity_score": 78.59030837004406,
+      "severity_score": 78.20627802690584,
       "band": "drought",
-      "pct_of_avg": 42.819383259911895,
-      "z_score_water": -1.9644856553728964,
-      "date": "2026-10-26"
+      "pct_of_avg": 43.587443946188344,
+      "z_score_water": -1.6837222480441172,
+      "date": "2026-10-31"
     },
     {
       "id": "bir-mcherga",
       "name": "Bir Mcherga",
       "name_ar": "بير مشارقة",
-      "severity_score": 66.4073550212164,
+      "severity_score": 65.42940320232897,
       "band": "drought",
-      "pct_of_avg": 67.18528995756719,
-      "z_score_water": -2.0497765770115746,
-      "date": "2026-10-26"
+      "pct_of_avg": 69.14119359534206,
+      "z_score_water": -1.7401559404379616,
+      "date": "2026-10-31"
     },
     {
       "id": "el-aroussia",
@@ -108,18 +38,18 @@
       "severity_score": 98.4375,
       "band": "severe",
       "pct_of_avg": 3.125,
-      "z_score_water": 0.11109627552641174,
-      "date": "2026-10-26"
+      "z_score_water": 0.10755640669146699,
+      "date": "2026-10-31"
     },
     {
       "id": "el-houareb",
       "name": "El Houareb",
       "name_ar": "الهوارب",
-      "severity_score": 98.56666666666668,
+      "severity_score": 98.675,
       "band": "severe",
-      "pct_of_avg": 2.8666666666666667,
-      "z_score_water": -0.6261928995134427,
-      "date": "2026-10-26"
+      "pct_of_avg": 2.65,
+      "z_score_water": -0.6093671197876749,
+      "date": "2026-10-31"
     },
     {
       "id": "nebhana",
@@ -128,78 +58,48 @@
       "severity_score": 100.0,
       "band": "severe",
       "pct_of_avg": 0.0,
-      "z_score_water": -0.644821950420704,
-      "date": "2026-10-26"
+      "z_score_water": -0.615434060876348,
+      "date": "2026-10-31"
     },
     {
       "id": "sidi-saad",
       "name": "Sidi Saad",
       "name_ar": "سيدي سعد",
-      "severity_score": 55.84247258225324,
-      "band": "watch",
-      "pct_of_avg": 88.31505483549353,
-      "z_score_water": -0.7516281459653879,
-      "date": "2026-10-26"
+      "severity_score": 74.30050671954174,
+      "band": "drought",
+      "pct_of_avg": 51.398986560916505,
+      "z_score_water": -2.2537945206069545,
+      "date": "2026-10-31"
     },
     {
       "id": "chiba",
       "name": "Chiba",
       "name_ar": "الشيبة",
-      "severity_score": 77.14285714285714,
+      "severity_score": 67.34693877551021,
       "band": "drought",
-      "pct_of_avg": 45.714285714285715,
-      "z_score_water": -0.8237347196936192,
-      "date": "2026-10-26"
+      "pct_of_avg": 65.3061224489796,
+      "z_score_water": -0.7760173909362208,
+      "date": "2026-10-31"
     },
     {
       "id": "masri",
       "name": "Masri",
       "name_ar": "المصري",
-      "severity_score": 99.14529914529915,
+      "severity_score": 98.95833333333333,
       "band": "severe",
-      "pct_of_avg": 1.7094017094017093,
-      "z_score_water": -1.4444035684465064,
-      "date": "2026-10-26"
-    },
-    {
-      "id": "tessa",
-      "name": "Tessa",
-      "name_ar": "التساء",
-      "severity_score": 90.97560975609755,
-      "band": "severe",
-      "pct_of_avg": 18.048780487804876,
-      "z_score_water": -1.2008768317547232,
-      "date": "2026-10-26"
-    },
-    {
-      "id": "ziatine",
-      "name": "Ziatine",
-      "name_ar": "الزياتين",
-      "severity_score": 76.72591206735267,
-      "band": "drought",
-      "pct_of_avg": 46.54817586529467,
-      "z_score_water": -1.6856215219104689,
-      "date": "2026-10-26"
-    },
-    {
-      "id": "moula",
-      "name": "Moula",
-      "name_ar": "مولى",
-      "severity_score": 91.93548387096774,
-      "band": "severe",
-      "pct_of_avg": 16.129032258064516,
-      "z_score_water": -0.8727051778769745,
-      "date": "2026-10-26"
+      "pct_of_avg": 2.0833333333333335,
+      "z_score_water": -1.2723187079439797,
+      "date": "2026-10-31"
     },
     {
       "id": "melah",
       "name": "El Melah",
       "name_ar": "الملاح",
-      "severity_score": 66.71019139863145,
+      "severity_score": 66.33290986894892,
       "band": "drought",
-      "pct_of_avg": 66.5796172027371,
-      "z_score_water": -0.7922804484998909,
-      "date": "2026-10-26"
+      "pct_of_avg": 67.33418026210217,
+      "z_score_water": -0.7477837824188435,
+      "date": "2026-10-31"
     },
     {
       "id": "harka",
@@ -208,8 +108,8 @@
       "severity_score": 99.14285714285714,
       "band": "severe",
       "pct_of_avg": 1.7142857142857144,
-      "z_score_water": 0.761831530035567,
-      "date": "2026-10-26"
+      "z_score_water": 0.7203037547339175,
+      "date": "2026-10-31"
     },
     {
       "id": "el-breck",
@@ -218,28 +118,28 @@
       "severity_score": 99.875,
       "band": "severe",
       "pct_of_avg": 0.25,
-      "z_score_water": -1.146622410998374,
-      "date": "2026-10-26"
+      "z_score_water": -1.0616054238008041,
+      "date": "2026-10-31"
     },
     {
       "id": "sidi-abdelmoumen",
       "name": "Sidi Abdelmoumen",
       "name_ar": "سيدي عبد المؤمن",
-      "severity_score": 99.6111111111111,
+      "severity_score": 99.5,
       "band": "severe",
-      "pct_of_avg": 0.7777777777777778,
-      "z_score_water": -0.30696711805742166,
-      "date": "2026-10-26"
+      "pct_of_avg": 0.9999999999999999,
+      "z_score_water": -0.20847877004288934,
+      "date": "2026-10-31"
     },
     {
       "id": "rmel",
       "name": "Rmel",
       "name_ar": "الرمل",
-      "severity_score": 51.0,
+      "severity_score": 50.505050505050505,
       "band": "watch",
-      "pct_of_avg": 98.0,
-      "z_score_water": -0.27824401180802877,
-      "date": "2026-10-26"
+      "pct_of_avg": 98.98989898989899,
+      "z_score_water": -0.26739409356859706,
+      "date": "2026-10-31"
     }
   ],
   "governorates": [
@@ -247,71 +147,81 @@
       "id": "nabeul",
       "name": "Nabeul",
       "name_ar": "نابل",
-      "severity_score": 55.117358330362514,
+      "severity_score": 54.58451032482897,
       "band": "watch",
-      "z_ndvi": -0.27342127291235796,
-      "z_ndmi": -0.01845533000049866,
-      "date": "2026-10-26"
+      "z_ndvi": -0.2627885613868551,
+      "z_ndmi": -0.017792942818854515,
+      "date": "2026-10-31"
     },
     {
       "id": "zaghouan",
       "name": "Zaghouan",
       "name_ar": "زغوان",
-      "severity_score": 60.01220531441179,
+      "severity_score": 59.854315636734654,
       "band": "watch",
-      "z_ndvi": -0.09102669684734042,
-      "z_ndmi": -0.09341094030721885,
-      "date": "2026-10-26"
+      "z_ndvi": -0.08813913076241203,
+      "z_ndmi": -0.09044631390313988,
+      "date": "2026-10-31"
     },
     {
       "id": "bizerte",
       "name": "Bizerte",
       "name_ar": "بنزرت",
-      "severity_score": 50.64163770774019,
+      "severity_score": 50.34878576548148,
       "band": "watch",
-      "z_ndvi": 0.8997517212864811,
-      "z_ndmi": 0.38851991072509423,
-      "date": "2026-10-26"
+      "z_ndvi": 0.8435778344172765,
+      "z_ndmi": 0.3733257662066496,
+      "date": "2026-10-31"
     },
     {
       "id": "beja",
       "name": "Béja",
       "name_ar": "باجة",
-      "severity_score": 59.09703801833291,
-      "band": "watch",
+      "severity_score": 71.15555999092001,
+      "band": "drought",
       "z_ndvi": -0.48516037806380485,
       "z_ndmi": -0.0669935000792633,
-      "date": "2026-10-26"
+      "date": "2026-10-31"
+    },
+    {
+      "id": "jendouba",
+      "name": "Jendouba",
+      "name_ar": "جندوبة",
+      "severity_score": 51.30261302376635,
+      "band": "watch",
+      "z_ndvi": 0.0723500368149068,
+      "z_ndmi": -0.3984741730949986,
+      "date": "2026-10-31"
     },
     {
       "id": "kef",
       "name": "Le Kef",
       "name_ar": "الكاف",
-      "severity_score": 68.09476359849495,
-      "band": "drought",
+      "severity_score": 58.74433401200097,
+      "band": "watch",
       "z_ndvi": -0.6239239877029551,
       "z_ndmi": -0.8255846097219479,
-      "date": "2026-10-26"
+      "date": "2026-10-31"
     },
     {
       "id": "siliana",
       "name": "Siliana",
       "name_ar": "سليانة",
-      "severity_score": 60.71720145032084,
+      "severity_score": 54.61969523887994,
       "band": "watch",
       "z_ndvi": -0.07815939809054587,
       "z_ndmi": -0.8552693208101448,
-      "date": "2026-10-26"
+      "date": "2026-10-31"
     },
     {
       "id": "sousse",
       "name": "Sousse",
       "name_ar": "سوسة",
-      "severity_score": 63.543194840246464,
-      "band": "watch",
+      "severity_score": 70.55411890942983,
+      "band": "drought",
       "z_ndvi": -0.20388988174160136,
       "z_ndmi": -0.11894475236634094,
-      "date": "2026-10-26"
+      "date": "2026-10-31"
     },
     {
       "id": "monastir",
@@ -321,77 +231,57 @@
       "band": "watch",
       "z_ndvi": 0.19613888089574283,
       "z_ndmi": -0.4111456045440802,
-      "date": "2026-10-26"
+      "date": "2026-10-31"
     },
     {
       "id": "sfax",
       "name": "Sfax",
       "name_ar": "صفاقس",
-      "severity_score": 56.643362041569794,
+      "severity_score": 56.30708845753154,
       "band": "watch",
-      "z_ndvi": -0.7347916740566761,
-      "z_ndmi": -0.19259777877376338,
-      "date": "2026-10-26"
+      "z_ndvi": -0.695781227568273,
+      "z_ndmi": -0.18587682499293962,
+      "date": "2026-10-31"
     },
     {
       "id": "kairouan",
       "name": "Kairouan",
       "name_ar": "القيروان",
-      "severity_score": 65.66035048885574,
+      "severity_score": 65.03238044039159,
       "band": "drought",
-      "z_ndvi": -0.5170901247862519,
-      "z_ndmi": -0.6656991649987116,
-      "date": "2026-10-26"
+      "z_ndvi": -0.3619809956090532,
+      "z_ndmi": -0.462237262487024,
+      "date": "2026-10-31"
     },
     {
       "id": "gabes",
       "name": "Gabès",
       "name_ar": "قابس",
-      "severity_score": 61.018029761696404,
+      "severity_score": 60.20039175539495,
       "band": "watch",
-      "z_ndvi": -0.9160722558561947,
-      "z_ndmi": -0.8237259227349081,
-      "date": "2026-10-26"
-    },
-    {
-      "id": "medenine",
-      "name": "Medenine",
-      "name_ar": "مدنين",
-      "severity_score": 50.70513471005494,
-      "band": "watch",
-      "z_ndvi": -0.260069369380263,
-      "z_ndmi": 0.283020210822051,
-      "date": "2026-10-26"
+      "z_ndvi": -0.8648053164169125,
+      "z_ndmi": -0.7347413804560692,
+      "date": "2026-10-31"
     },
     {
       "id": "tataouine",
       "name": "Tataouine",
       "name_ar": "تطاوين",
-      "severity_score": 50.87344853291847,
+      "severity_score": 52.056829961139535,
       "band": "watch",
-      "z_ndvi": -0.2023261146306218,
-      "z_ndmi": 0.1508745040284291,
-      "date": "2026-10-26"
-    },
-    {
-      "id": "gafsa",
-      "name": "Gafsa",
-      "name_ar": "قفصة",
-      "severity_score": 53.84132928683229,
-      "band": "watch",
-      "z_ndvi": -0.6751243296291768,
-      "z_ndmi": 0.3057236348577381,
-      "date": "2026-10-26"
+      "z_ndvi": -0.21664439925517104,
+      "z_ndmi": -0.07771639295114931,
+      "date": "2026-10-31"
     },
     {
       "id": "tozeur",
       "name": "Tozeur",
       "name_ar": "توزر",
-      "severity_score": 58.00243244597378,
+      "severity_score": 50.180620011615744,
       "band": "watch",
-      "z_ndvi": -0.4447910854015901,
-      "z_ndmi": -0.965867112805088,
-      "date": "2026-10-26"
+      "z_ndvi": 0.1859922005805997,
+      "z_ndmi": -0.348519270112358,
+      "date": "2026-10-31"
     }
   ]
 }
