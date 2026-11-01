@@ -8,8 +8,8 @@
   "capacity_hm3": 70,
   "ndwi_threshold": 0.05,
   "historical_avg_km2": 3.0,
-  "effective_baseline_km2": 0.54,
-  "baseline_source": "rolling-monthly",
+  "effective_baseline_km2": 3.0,
+  "baseline_source": "config",
   "readings": [
     {
       "date": "2017-03-12",
@@ -1153,6 +1153,15 @@
       "confidence": null,
       "pct_of_avg": null,
       "scene_id": "S2A_32SNE_20261026_1_L2A"
+    },
+    {
+      "date": "2026-11-01",
+      "surface_area_km2": 0.0,
+      "surface_area_mndwi_km2": 0.025,
+      "cloud_pct": 0.0,
+      "confidence": 0.008,
+      "pct_of_avg": 0.0,
+      "scene_id": "S2C_32SNE_20261031_0_L2A"
     }
   ],
   "monthly_medians_km2": {
@@ -1271,7 +1280,8 @@
     "2026-07": 1.074,
     "2026-08": 1.134,
     "2026-09": 1.13,
-    "2026-10": 1.19
+    "2026-10": 1.19,
+    "2026-11": 0.0
   },
-  "generated_at": "2026-10-31 11:48 UTC"
+  "generated_at": "2026-11-01 12:48 UTC"
 }

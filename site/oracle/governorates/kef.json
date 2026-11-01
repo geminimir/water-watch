@@ -1140,6 +1140,15 @@
       "cloud_pct": null,
       "confidence": null,
       "scene_id": ""
+    },
+    {
+      "date": "2026-11-01",
+      "mean_ndvi": null,
+      "mean_ndmi": null,
+      "healthy_pct": null,
+      "cloud_pct": null,
+      "confidence": null,
+      "scene_id": ""
     }
   ],
   "monthly_medians_ndvi": {
@@ -1376,5 +1385,5 @@
     "2026-09": -0.15805,
     "2026-10": -0.1714
   },
-  "generated_at": "2026-10-31 11:48 UTC"
+  "generated_at": "2026-11-01 12:48 UTC"
 }

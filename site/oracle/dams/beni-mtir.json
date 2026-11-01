@@ -8,7 +8,7 @@
   "capacity_hm3": 61,
   "ndwi_threshold": 0.05,
   "historical_avg_km2": 3.5,
-  "effective_baseline_km2": 2.39,
+  "effective_baseline_km2": 1.53,
   "baseline_source": "rolling-monthly",
   "readings": [
     {
@@ -1117,6 +1117,15 @@
       "confidence": null,
       "pct_of_avg": null,
       "scene_id": ""
+    },
+    {
+      "date": "2026-11-01",
+      "surface_area_km2": null,
+      "surface_area_mndwi_km2": null,
+      "cloud_pct": null,
+      "confidence": null,
+      "pct_of_avg": null,
+      "scene_id": ""
     }
   ],
   "monthly_medians_km2": {
@@ -1229,5 +1238,5 @@
     "2026-09": 2.78,
     "2026-10": 2.735
   },
-  "generated_at": "2026-10-31 11:48 UTC"
+  "generated_at": "2026-11-01 12:48 UTC"
 }
