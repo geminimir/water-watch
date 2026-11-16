@@ -1167,6 +1167,15 @@
       "cloud_pct": 24.3,
       "confidence": 0.757,
       "scene_id": "S2B_32SPB_20261105_0_L2A"
+    },
+    {
+      "date": "2026-11-16",
+      "mean_ndvi": 0.0884,
+      "mean_ndmi": -0.1416,
+      "healthy_pct": 0.0,
+      "cloud_pct": 0.0,
+      "confidence": 1.0,
+      "scene_id": "S2B_32SNB_20261115_0_L2A"
     }
   ],
   "monthly_medians_ndvi": {
@@ -1405,5 +1414,5 @@
     "2026-10": -0.131,
     "2026-11": -0.1388
   },
-  "generated_at": "2026-11-11 13:43 UTC"
+  "generated_at": "2026-11-16 15:01 UTC"
 }
