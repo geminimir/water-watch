@@ -1194,6 +1194,15 @@
       "cloud_pct": 65.0,
       "confidence": null,
       "scene_id": "S2C_32SNF_20261120_0_L2A"
+    },
+    {
+      "date": "2026-11-26",
+      "mean_ndvi": null,
+      "mean_ndmi": null,
+      "healthy_pct": null,
+      "cloud_pct": 45.4,
+      "confidence": null,
+      "scene_id": "S2C_32SNF_20261123_0_L2A"
     }
   ],
   "monthly_medians_ndvi": {
@@ -1430,5 +1439,5 @@
     "2026-10": -0.1129,
     "2026-11": -0.09905
   },
-  "generated_at": "2026-11-21 14:21 UTC"
+  "generated_at": "2026-11-26 16:32 UTC"
 }
